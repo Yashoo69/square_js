@@ -1,0 +1,50 @@
+* {
+    padding: auto;
+    margin: auto;
+}
+
+body {
+    height: 100vh;
+}
+
+
+main {
+    height: 100vh;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.form_select{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+}
+
+#Boardgame {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.columnItem {
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid black;
+
+}
+
+.column {
+    height: 100%;
+
+    /* border: 2px solid black; */
+}
+
+.columnItem:hover {
+    background-color: red;
+}
